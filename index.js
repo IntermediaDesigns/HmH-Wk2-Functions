@@ -20,7 +20,7 @@ function sum() {
        let firstNumber = +prompt("Enter the first number:");
        let secondNumber = +prompt("Enter the second number:");
        let answer = firstNumber * secondNumber;
-       alert(`${firstNumber} + ${secondNumber} = ${answer}`)
+       alert(`${firstNumber} * ${secondNumber} = ${answer}`)
 }
 
 // convert: The app will convert minutes into seconds.
@@ -34,10 +34,10 @@ function low() {
        let number1 = +prompt("Enter the first number:");
        let number2 = +prompt("Enter the second number:");
               if (number1 < number2) {
-                     alert(`The first number is less than ${number2}`);
+                     alert(`${number1} is less than ${number2}`);
               }
                      else {
-                            alert(`The first number is greater than ${number2}`);
+                            alert(`The ${number1} is greater than ${number2}`);
                      }
 }
 
