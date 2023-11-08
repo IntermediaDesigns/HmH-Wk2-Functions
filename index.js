@@ -11,8 +11,7 @@ while (working) {
               else if (response === "convert") {convert();}
               else if (response === "low") {low();}
               else if (response === "random") {random();}
-              else if (response === "wordCounter") {wordCounter();}
-              
+              else if (response === "wordCounter") {wordCounter();}       
 }
 
 // sum: The app will prompt the users for two numbers and return the sum.
