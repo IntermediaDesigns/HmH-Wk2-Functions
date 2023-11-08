@@ -37,7 +37,7 @@ function low() {
                      alert(`${number1} is less than ${number2}`);
               }
                      else {
-                            alert(`The ${number1} is greater than ${number2}`);
+                            alert(`${number1} is greater than ${number2}`);
                      }
 }
 
