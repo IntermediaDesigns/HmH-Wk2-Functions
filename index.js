@@ -20,13 +20,13 @@ function sum() {
        let firstNumber = +prompt("Enter the first number:");
        let secondNumber = +prompt("Enter the second number:");
        let answer = firstNumber * secondNumber;
-       alert(`${firstNumber} * ${secondNumber} = ${answer}`)
+              alert(`${firstNumber} * ${secondNumber} = ${answer}`)
 }
 
 // convert: The app will convert minutes into seconds.
 function convert() {
        let number = +prompt("Enter the number of minutes:");
-       alert(`There are ${number * 60} seconds in ${number} minutes.`);
+              alert(`There are ${number * 60} seconds in ${number} minutes.`);
 }
 
 // low: The app will state if the first number is lower than the second number.
@@ -44,7 +44,7 @@ function low() {
 // random: The app will give a random number between 0 and the user's specified number.
 function random() {
        let maxNumber = +prompt("Enter the maximum number:");
-       alert(`I have generated a random number: ${Math.round(Math.random() * maxNumber)}`);
+              alert(`I have generated a random number: ${Math.round(Math.random() * maxNumber)}`);
 }
 
 // wordCounter: The app will state how many words are in a sentence.
@@ -56,5 +56,5 @@ function wordCounter() {
                      count = count + 1;}  
        }
        count = count + 1;
-       alert("There are " + count + " words.");
+              alert("There are " + count + " words.");
 }
