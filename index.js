@@ -50,9 +50,11 @@ function random() {
 // wordCounter: The app will state how many words are in a sentence.
 function wordCounter() {
        let words = prompt("Enter a sentence to count the words:");
-       for (let words of sentence) {
-              if (words === " ") {
-                     count = count +1;}
-              alert("There are " + count + " words.");
+       let count = 0;
+       for (let i = 0; i < words.length; i++) {
+              if (words[i] === " ") {
+                     count = count + 1;}  
        }
+       count = count + 1;
+       alert("There are " + count + " words.");
 }
