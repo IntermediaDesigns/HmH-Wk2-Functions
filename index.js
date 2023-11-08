@@ -53,7 +53,6 @@ function wordCounter() {
        for (let char of sentence) {
               if (char === " ") {
                      count = count +1;}
-              
               alert("There are " + count + " words.");
        }
 }
