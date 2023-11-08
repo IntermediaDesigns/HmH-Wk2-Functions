@@ -13,9 +13,6 @@ while (working) {
               else if (response === "random") {random();}
               else if (response === "wordCounter") {wordCounter();}
               
-
-       
-            count = count +1;
 }
 
 // sum: The app will prompt the users for two numbers and return the sum.
@@ -34,15 +31,29 @@ function convert() {
 
 // low: The app will state if the first number is lower than the second number.
 function low() {
-
+       let number1 = +prompt("Enter the first number:");
+       let number2 = +prompt("Enter the second number:");
+              if (number1 < number2) {
+                     alert(`The first number is less than ${number2}`);
+              }
+                     else {
+                            alert(`The first number is greater than ${number2}`);
+                     }
 }
 
-// andom: The app will give a random number between 0 and the user's specified number.
+// random: The app will give a random number between 0 and the user's specified number.
 function random() {
-
+       let maxNumber = +prompt("Enter the maximum number:");
+       alert(`I have generated a random number: ${Math.round(Math.random() * maxNumber)}`);
 }
 
 // wordCounter: The app will state how many words are in a sentence.
 function wordCounter() {
-
+       let words = prompt("Enter a sentence to count the words:");
+       for (let char of sentence) {
+              if (char === " ") {
+                     count = count +1;}
+              
+              alert("There are " + count + " words.");
+       }
 }
